@@ -1,0 +1,505 @@
+body{
+	background-image:  url("../fotos/inicial.jpg")  !important;
+	backdrop-filter: brightness(30%);
+	
+}
+
+}.hidden.menu {
+	display: none;
+}
+.back{
+	background-image: url("../fotos/back.jpg");
+
+}
+
+.background{
+	background-color: white;
+}
+
+.masthead.segment {
+	min-height: 700px;
+	padding: 1em 0em;
+}
+.masthead .logo.item img {
+	margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+	margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+	margin-top: 3em;
+	margin-bottom: 0em;
+	font-size: 4em;
+	font-weight: normal;
+}
+.masthead h2 {
+	font-size: 1.7em;
+	font-weight: normal;
+}
+
+.ui.vertical.stripe {
+	padding: 8em 0em;
+}
+.ui.vertical.stripe h3 {
+	font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+	margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+	clear: both;
+}
+.ui.vertical.stripe p {
+	font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+	margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+	padding: 0em;
+}
+.quote.stripe.segment .grid .column {
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+.footer.segment{
+	padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+	display: none;
+}
+
+@media only screen and (max-width: 700px) {
+	.ui.fixed.menu {
+		display: none !important;
+	}
+	.secondary.pointing.menu .item,
+	.secondary.pointing.menu .menu {
+		display: none;
+	}
+	.secondary.pointing.menu .toc.item {
+		display: block;
+	}
+	.masthead.segment {
+		min-height: 350px;
+	}
+	.masthead h1.ui.header {
+		font-size: 2em;
+		margin-top: 1.5em;
+	}
+	.masthead h2 {
+		margin-top: 0.5em;
+		font-size: 1.5em;
+	}
+
+	    body > .grid {
+      height: 100%;
+    }
+    .image {
+      margin-top: -100px;
+    }
+    .column {
+      max-width: 450px;
+    }
+}
+.rodape{
+	margin-top: 10%;
+	width: 100%;
+	height: 100%;
+	background: #1b1c1d;
+}
+
+.cabeçalho{
+	width: 100%;
+	height: 15.5%;
+	border: solid #E6E6E6 0.8px ;
+}
+.barra {
+	float: left;
+	width: 100%;
+	background: #1b1c1d;
+	text-align:center;
+}
+
+.lado {
+	width: 33.3%;
+	float: left;
+}
+.menu {
+	float: left;
+	text-align: center;
+	padding-left: 5%;
+}
+a {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+	
+li {
+	color: #FFFFFF;
+	display: inline;
+	border-right: 2px #FFFFFF;
+	padding: 20px;
+	font-size: 20px;
+	font-variant: small-caps;	
+}
+
+img.rede {
+	width: 5%;	
+}
+
+.hm{
+	font-variant: small-caps;
+	font-size: 24px;
+
+}
+.hmm{
+	font-variant: small-caps;
+	font-size: 24px;
+	color: #000;
+}
+.b{
+	width: 100%;
+	height: 5%;
+	color:#000000;
+	border: solid #000000 0.8px ;
+}
+.tia{
+	display: inline-block;
+	position: relative;
+}
+.tia button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform:translate3d(-50%,-50%,0);
+	-moz-transform:translate3d(-50%,-50%,0);
+	-transform: translate3d(-50%,-50%,0);
+}
+#rece{
+	width: 48%;
+	float: right;
+}
+.rece{
+	font-size: 30px;
+	margin-left: 55%;
+	color:#FFFFFF;
+	font-variant: small-caps;
+}
+.Curso{
+	width: 20%;
+	height: 10%;
+}
+.framengo{
+	width: 67.5%;
+	margin-left: 0.8%;
+	margin-right: 2%
+}
+.curintia{
+	width: 100%;
+	height: 60px;
+}
+.imagem{
+	width: 50%;
+	height: 70%;
+	margin-left: 2%;
+}
+.pai{
+	width: 100%;
+	height: 80px;
+	margin-top: 2%;
+}
+.text3{
+	margin-left: 10%;
+	margin-right: 10%;	
+	font-variant: small-caps;
+	font-size: 20px;
+	color:#FFFFFF;
+	width: 80%;
+	float: right;
+	text-align: justify;
+}
+.cc{
+	width: 100%;
+	height: 15%;
+}
+.c{
+	width: 10%;
+	float: right;
+	margin-right: 15%;
+}
+.dado{
+	width: 100%;
+	height: 30%;
+}
+.dad{
+	width: 20%;
+	float: center;
+	margin-left: 45%;
+}
+.ema{
+	width: 8%;
+	margin-left: 30%;
+	margin-top: 0.5%;
+	color:#000000;
+}
+.mal{
+	width: 10%;
+	float:left;
+}
+.doce{
+	width: 5%;
+	margin-top: 0.5%;
+}
+
+.logo{
+	margin-left: 45%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+}
+.fundo{
+	background:#E6E6E6;
+}
+.ata{
+	width: 100%;
+	height: 20%;
+}
+#tamCadastro{
+	font-size: 30px;
+	font-color: #FFFFFF;
+}
+.trap{
+	font-color: #FFFAFA;
+	font-size: 10px;
+}
+
+.marLog{
+	width: 26%;
+	margin-left: 36.5%;
+	margin-right: 37.5%;
+	margin-bottom: 5%;
+	margin-top: 12%;
+	border: solid #000000 0.9px ;
+	margin: center;
+	height: 35%;
+}
+.pade{
+	width: 75%;
+	height: 120%;
+	margin-top: 5%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	border: solid #F2F2F2 0.8px ;
+	margin-bottom: 5%;
+	margin: center;
+}
+.padepade{
+	width: 80%;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin: center;
+}
+.margem{
+	width: 75%;
+	height: 90%;
+	margin-top: 5%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	border: solid #F2F2F2 0.8px ;
+	margin-bottom: 5%;
+	margin: center;
+	height: 90%;
+}
+.margemLog{
+	width: 30%;
+	height: 90%;
+	margin-top: 5%;
+	margin-left: 35%;
+	margin-right: 30%;
+	border: solid #F2F2F2 0.8px ;
+	margin-bottom: 5%;
+	margin: center;
+}
+.margemTeste{
+	width: 50%;
+	height: 80%;
+	border: solid #F2F2F2 0.8px ;
+	margin-top: 8%;
+	margin-left: 35%;
+}
+.mar{
+	width: 50%;
+	height: 70%;
+	float: left;
+	margin-top: 8%;
+	margin-left: 35%;
+}
+.um{
+	width: 100%;
+	float: left;
+	margin-left: -15%;
+	margin-top: 30%;
+}
+.umum{
+	width: 100%;
+	float: left;
+	margin-left: -15%;
+	margin-top: 30%;
+}
+.dois{
+	width: 100%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+.marr{
+	width: 50%;
+	float: left;
+	margin-top: 8%;
+	margin-left: 35%;
+	margin-bottom: 20%;
+}
+.cama{
+	margin-top: 5px;
+}
+.bar{
+	width: 100%;
+	height: 9%;
+}
+.nia{
+	width: 100%;
+	height: 5%;
+	float: left;
+}
+.nal{
+	width: 100%;
+	height: 5%;
+	float: left;
+	margin-bottom: 5%;
+}
+.tapaT{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 4%;
+}
+.tapaTA{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 4%;
+}
+.tapaa{
+	margin-left: 35%;
+	margin-top: 4%;
+	margin-bottom: 3%;
+}
+.tapa{
+	width: 32.5%;
+	margin-left: 12%;
+	margin-top: 4%;
+}
+.tapa1{
+	width: 32.5%;
+	margin-left: 7%;
+	margin-top: 2%;
+}
+.tapa2{
+	width: 72%;
+	margin-left: 12%;
+	margin-top: 2%;
+}
+.tapa3{
+	margin-left: 12%;
+	margin-top: 2%;
+}
+.tapa4{
+	width: 30%;
+	margin-left: 25%;
+	margin-top: 2%;
+}
+.tapa5{
+	margin-left: 44%;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+.spa{
+	width: 20%;
+	float:left;
+	margin-left: 40%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.a{
+	width: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 50px;
+
+}
+.item_left{
+	float:left;
+}
+.black{
+	text-decoration-color:black;
+}
+
+.furacao{
+	width: 30%;
+	height: 80%;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 30px;
+	border: solid #F2F2F2 0.8px ;
+
+}
+.fofao{
+	width: 100%;
+	height: 20%;
+}
+.entrada{
+	width: 100%;
+	height: 97%;
+}
+
+@media screen and (max-width: 980px) {
+
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+
+@media screen and (max-width: 700px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
+@media screen and (max-width: 480px) {
+	#header {
+		height: auto;
+	}
+	h1{
+		font-size: 24px;
+	}
+	#sidebar {
+		display: none;
+	}
+}	
+
+}
